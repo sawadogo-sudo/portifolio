@@ -30,8 +30,8 @@ export default function Contact() {
           <div className="contact-info">
             <div className="info-item">
               <span className="info-label">// email</span>
-              <a href="mailto:contact@votresite.com" className="info-value">
-                contact@votresite.com
+              <a href="mailto:amidosawadogo4@gmail.com" className="info-value">
+                amidosawadogo4@gmail.com
               </a>
             </div>
             <div className="info-item">
@@ -45,7 +45,7 @@ export default function Contact() {
 
             <div className="socials">
               {[
-                { label: 'GitHub', url: '#', icon: '⌨' },
+                { label: 'GitHub', url: 'https://github.com/sawadogo-sudo', icon: '⌨' },
                 { label: 'LinkedIn', url: '#', icon: '🔗' },
                 { label: 'HackTheBox', url: '#', icon: '🎯' },
                 { label: 'TryHackMe', url: '#', icon: '🏴' },
@@ -114,10 +114,10 @@ export default function Contact() {
       <footer className="footer">
         <p className="footer-text">
           <span className="glow-text">{'</'}</span>
-          Votre Nom — Cybersecurity Engineer
+          SAWADOGO Amidou - Cybersecurity Engineer
           <span className="glow-text">{'>'}</span>
         </p>
-        <p className="footer-sub">Built with React · Deployed on Render</p>
+        <p className="footer-sub"></p>
       </footer>
     </section>
   )
