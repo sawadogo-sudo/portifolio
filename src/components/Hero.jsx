@@ -50,7 +50,7 @@ export default function Hero() {
           <span className="hero-prompt">root@portfolio:~$</span> initializing...
         </p>
         <h1 className="hero-name glitch">
-          Votre<br /><span className="glow-text">Nom</span>
+          SAWADOGO<br /><span className="glow-text">Amidou</span>
         </h1>
         <div className="hero-role">
           <span className="role-label">&gt; </span>
