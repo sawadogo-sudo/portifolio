@@ -50,10 +50,10 @@ export default function About() {
             </div>
             <div className="terminal-body">
               <pre>{`{
-  "name": "Votre Nom",
+  "name": "Sawadogo Amidou",
   "role": "Cybersecurity Engineer",
   "location": "Ouagadougou, BF",
-  "email": "contact@votresite.com",
+  "email": "amidosawadogo4@gmail.com",
   "certifications": [
     "CEH (Certified Ethical Hacker)",
     "CompTIA Security+",
