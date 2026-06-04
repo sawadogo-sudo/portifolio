@@ -1,0 +1,115 @@
+.about {
+  padding: 100px 60px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.about-text p {
+  color: var(--text-secondary);
+  line-height: 1.9;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.about-intro {
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 24px !important;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 36px;
+}
+
+.stat-box {
+  background: var(--bg-card);
+  border: 1px solid rgba(0, 245, 255, 0.15);
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.stat-value {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.stat-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 2px;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+/* Terminal */
+.about-terminal {
+  background: #080e14;
+  border: 1px solid rgba(0, 245, 255, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 245, 255, 0.08);
+}
+
+.terminal-header {
+  background: #0a1520;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid rgba(0, 245, 255, 0.1);
+}
+
+.t-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.t-dot.red { background: #ff5f57; }
+.t-dot.yellow { background: #ffbd2e; }
+.t-dot.green { background: #28ca41; }
+
+.t-title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: 8px;
+  letter-spacing: 1px;
+}
+
+.terminal-body {
+  padding: 20px;
+}
+
+.terminal-body pre {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 900px) {
+  .about { padding: 80px 24px; }
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+}
